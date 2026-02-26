@@ -4,12 +4,12 @@ A Python scraper that reads a list of keywords, searches them on Google Maps, an
 
 ## Features
 
-- 🔍 Searches Google Maps by keyword list
-- 📊 Exports place data to Excel (`.xls`)
-- 💬 Scrapes reviews sorted by newest and saves them to CSV
-- 🤖 Optional AI-powered review analysis via `review_analyzer.py`
-- 🌐 Supports **English** and **Spanish** Google Maps interfaces
-- ⚡ Multi-threaded scraping (4 threads by default)
+- Searches Google Maps by keyword list
+- Exports place data to Excel (`.xls`)
+- Scrapes reviews sorted by newest and saves them to CSV
+- Optional AI-powered review analysis via `review_analyzer.py`
+- Supports **English** and **Spanish** Google Maps interfaces
+- Multi-threaded scraping (4 threads by default)
 
 ## Project Structure
 
@@ -75,9 +75,6 @@ The review analyzer uses OpenAI's API to perform sentiment analysis on scraped r
    ```
    OPENAI_API_KEY=sk-proj-your-key-here
    ```
-
-> [!NOTE]
-> The `.env` file is listed in `.gitignore` and will **never** be pushed to GitHub. Your API key stays private on your machine.
 
 ## Usage
 
