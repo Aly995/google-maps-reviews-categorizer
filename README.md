@@ -1,4 +1,4 @@
-# Google Maps Scraper 🌎📊
+# Google Maps Scraper
 
 A Python scraper that reads a list of keywords, searches them on Google Maps, and extracts business data (name, address, phone, website, hours, stars, review count) plus individual reviews — exporting everything to Excel and CSV.
 
