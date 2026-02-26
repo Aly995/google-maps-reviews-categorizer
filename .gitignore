@@ -1,0 +1,39 @@
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.exe
+
+
+# Virtual environments
+env/
+venv/
+.env/
+
+# Secrets
+.env
+
+# Debug output files
+debug_*.png
+debug_*.html
+page_source_*.html
+*.log
+
+# Output data (optional — remove if you want to track these)
+*.xls
+*_reviews.csv
+
+# PyInstaller
+*.spec
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
